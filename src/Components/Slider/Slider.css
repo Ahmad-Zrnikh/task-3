@@ -1,0 +1,97 @@
+.slider{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide{
+    position: absolute;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.slide.one{
+    left: 0%;
+}
+.slide.two{
+    left: 100%;
+}
+.slide.three{
+    left: 200%;
+}
+
+.arrows{
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.arrows button{background: none;
+    border: none;}
+.arrows :nth-child(1)  {
+    font-size: 35px;
+    color: white !important;
+    cursor: pointer;
+}
+.arrows :nth-child(2)  {
+    font-size: 35px;
+    color: white !important;
+    cursor: pointer;
+
+}
+
+.textSlide {
+    position: absolute;
+    left: 100px;
+    top: 43%;
+    padding: 55px;
+    transform: translateY(-50%);
+}
+.textSlide div {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    font-size: 17px;
+}
+.specialT{
+    color: red;
+}
+.textSlide h1 {
+    color: white;
+    font-size: 50px;
+}
+.balls {
+    position: absolute;
+    left: 166px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+}
+.balls span{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.balls .ballActive {
+    background-color: red;
+}
+@media (max-width: 592px){
+    .textSlide h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .textSlide {
+        padding: 9px;
+    }
+
+}

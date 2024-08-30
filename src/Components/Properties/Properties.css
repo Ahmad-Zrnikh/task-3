@@ -1,0 +1,15 @@
+.textVideo.prop h1{
+color: black;
+}
+.textVideo.prop .specialText{
+    color: gray;
+    border-left: solid gray 3px;
+}
+.textVideo.prop {
+    padding-bottom: 100px;
+}
+.properties{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

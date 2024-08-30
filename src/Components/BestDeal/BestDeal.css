@@ -1,0 +1,161 @@
+.bestDeal{
+    width: 100%;
+    background-color: #e8fbfb;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 106px;
+}
+.buttons button {
+    border: none;
+    padding: 15px;
+    width: 132px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.firstRow .buttons button:hover 
+    {
+    background-color: red;
+}
+    .buttons .active4 {
+        background-color: red;
+    }
+    .firstRow{
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttons {
+        display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 15px;
+    }
+    @media (min-width: 553px) and (max-width: 829px){
+        .firstRow {
+            flex-direction: column;
+            gap: 32px;
+        }
+        .textDeal{
+            display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+        }
+        .buttons {
+            justify-content: space-evenly;
+        gap: 0px;
+        }
+    }
+    @media (max-width:552px){
+        .textDeal{
+            display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+        }
+        .buttons {
+            justify-content: space-between;
+        gap: 10px;
+        }
+        .firstRow {
+            flex-direction: column;
+            gap: 32px;
+           
+        }
+        .buttons button {
+            padding: 5px;
+            font-size: 14px;
+        }
+
+    }
+    @media (max-width: 442px){
+        .buttons {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        gap: 7px;
+        }
+    }
+    .textDeal h1 {
+
+    }
+    .textDeal  .specialText{
+        font-weight: 700;
+    }
+.section3-featured.new div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.section3-featured.new {
+    padding: 5px;
+    width: 257px;
+    height: 441px;
+}
+.section3-featured.new div h1{
+    font-size: 24px;
+}
+.section3-featured.new div p{
+    color: #a9a9a980;
+    font-size: 17px;
+}
+.schedule.deal{
+    text-decoration: none;
+    display: block;
+    width: 176px;
+}
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2Deal{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    width: 245px;}
+    .text2Deal h4 {
+
+    }
+    .text2Deal p {
+line-height: 1.6;
+font-size: 17px;
+    }
+    @media (max-width: 1030px){
+        .secondRow {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }.imageDeal img {
+    width: 450px;
+}
+        .section3-featured.new {
+            padding: 5px;
+            width: 70%;
+            min-width: 357px;
+            height: 441px;
+        }
+        .text2Deal {
+            width: 99%;
+    min-width: 300px;
+        }
+        .schedule.deal:hover {
+            color: red!important;
+            padding: 10px;
+        }
+    }
+    @media (max-width:470px){
+    .imageDeal img {
+        width: 350px;
+    }
+    }
+

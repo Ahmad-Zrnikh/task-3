@@ -1,0 +1,70 @@
+.card{
+    background-color: #e8fbfb;
+    width: 357px;
+    padding: 19px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 12px;
+}
+.price button {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ffd5d0;
+}
+.price  h2  {
+    color: red;
+    font-weight: 700;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.rooms , .area {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin-bottom: 5px;
+}
+.bold {
+    font-weight: 600;
+}
+.btnCard{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 23px;
+    font-size: 17px;
+    padding: 10px 29px;
+    width: 206px;
+}
+.card hr {
+    width: 100%;
+    margin: 0 auto;
+    color: gray;
+    opacity: 0.1;
+}
+ .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .btnCard{
+cursor: pointer;
+}
+
+.imgCard img{
+    width: 100%;
+    border-radius: 8px;
+}
+.textCard h2 {
+    font-size: 21px;
+    margin-bottom: 25px;
+}

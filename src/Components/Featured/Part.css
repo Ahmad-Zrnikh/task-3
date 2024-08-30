@@ -1,0 +1,22 @@
+.part {
+    padding: 33px;
+    width: 288px;
+    display: flex;
+    height: 68px;
+    margin-bottom: 15px;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+.text-part h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.text-part p , .image-part p {
+    color:#a9a9a980 ;
+    font-size: 18px;
+}
+.image-part {
+    margin-right: 20px;
+}

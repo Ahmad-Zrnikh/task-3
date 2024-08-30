@@ -1,0 +1,69 @@
+.header {
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px #a9a9a980;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container {
+    padding-left: 70px;
+    width: 1300px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+display: flex;
+}
+.icons div {
+    width: 30px;
+    background-color: black;
+    height: 30px;
+    margin: 0 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #a9a9a980;
+}
+.icon1 {
+    margin: 0 10px;
+    font-size: 18px;
+    color: red;
+}
+.icon2 {
+    margin: 0 10px;
+    font-size: 14px;
+    color: white;
+}
+.icon2::after{
+    content: "";
+}
+
+.email {
+    display: flex;
+}
+.email p , .text p{
+    font-size: 17px;
+    color: #a9a9a980;
+}
+.text {
+    display: flex;
+}
+.Info {
+    display: flex;
+    align-items: center;
+}
+.line {
+    height: 19px;
+    width: 1px;
+    margin-left: 10px;
+    background-color: #a9a9a980;
+}
+@media (max-width: 826px) {
+    .header {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+@media (min-width: 832px) and (max-width: 1030px){
+    .cards {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media (max-width: 831px){
+    .cards {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+}
+/* @media (max-width: 456px){
+    .cards {
+        grid-template-columns: 1fr ;
+padding: 10px;
+    }
+} */

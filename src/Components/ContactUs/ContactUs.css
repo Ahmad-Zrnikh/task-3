@@ -1,0 +1,112 @@
+.contact {
+    background-image: url("/images/images/contact-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+    margin-bottom: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+.section2Contact{
+    position: absolute;
+    left: 80px;
+    height: 692px;
+    right: 80px;
+    bottom: -370px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.map iframe {
+border-radius: 10px;
+width: 100%;
+}
+.newpart {
+    box-shadow: darkgray 0px 0px 8px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+}
+.inputs {
+    padding: 25px;
+    width: 35%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    box-shadow: darkgray 0px 0px 8px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.inputs input , .inputs textarea {
+    border: none;
+    color: gray;
+    background-color: #e8fbfb;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.inputs label {
+    font-size: 17px;
+}
+@media (min-width:906px) and (max-width: 1030px){
+    .inputs{
+        width: 30%;
+        
+    }
+    .left {
+        width: 60%;
+    }
+    .phone{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 905px) {
+    .section2Contact{
+        flex-direction: column;
+        left: 10px;
+        right: 10px;
+        gap: 20px;
+        
+    }
+    .contact {
+        margin-bottom: 1080px;
+    }
+    .inputs{
+        width: 99%;
+        gap: 7px;
+    }
+    .left {
+        width: 99%;
+        gap: 20px;
+    }
+    .phone{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/* .btnContact{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 23px;
+    font-size: 17px;
+    padding: 10px 29px;
+    width: 206px;
+} */
+.inputs .btn{
+    justify-content: flex-start ;
+}

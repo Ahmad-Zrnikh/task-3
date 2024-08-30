@@ -1,0 +1,98 @@
+.videoView{
+    background-image: url("/images/images/contact-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+    margin-bottom: 350px;
+    display: flex;
+    justify-content: center;
+}
+.specialText {
+    padding-left: 5px;
+    color: red;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-left: solid red 3px;
+}
+.textVideo h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 15px;
+
+}
+.textVideo {
+    padding-top: 129px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 450px;
+    max-width: 1070px;
+}
+.video {
+    position: absolute;
+    left: 50%;
+    bottom: -233px;
+    transform: translateX(-50%);
+}
+.poster {
+    border-radius: 10px;
+    min-width: 450px;
+    max-width: 1070px;
+
+}
+.play{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 61px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.rectangulars {
+    padding-left: 80px;
+    /* width: 986px; */
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px; */
+    margin-bottom: 110px;
+}
+@media (max-width: 994px){
+    .rectangulars {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+.rectangular {
+    margin-bottom: 36px;
+}
+
+}
+@media (min-width: 841px) and (max-width: 1030px){
+    .poster{
+        width: 820px;
+    }
+}
+@media (min-width: 530px) and (max-width: 840px) {
+    .poster{
+        width: 510px;
+    }
+}
+@media (max-width: 530px){
+    .poster{
+        width: 450px;
+    }
+    .video{
+        bottom: 2px;
+    }
+    .videoView {
+        margin-bottom: 93px;
+    }
+    .rectangulars {
+        padding-left: 5px;
+    }
+}
