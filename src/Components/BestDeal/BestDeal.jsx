@@ -16,6 +16,7 @@ firstbtn.current.style.backgroundColor = "red";
 secondbtn.current.style.backgroundColor = "black";
 thirdbtn.current.style.backgroundColor = "black";
 }
+ 
 
 const [second, setsecond] = useState(false);
 const moveTwo = () => {

@@ -1,4 +1,4 @@
-import "./card.css"
+import "./Card.css"
 
 export default function Card({src ,type ,price ,title ,bedrooms ,bathrooms , area , floor ,parking}) {
   return (
